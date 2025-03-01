@@ -1,0 +1,142 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/58/43/VAYm4w.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #eae1e1;
+    overflow-x: hidden;
+}
+
+.profile-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+.profile-img{
+    max-width: 90px;
+    height: auto;
+    margin-left: 20px;
+}
+.profile-info{
+    max-width: 60%;
+}
+@media screen and (max-width: 768px) {
+    .profile-header,
+    .popup-content{
+        flex-direction: column; 
+        text-align: center;
+        width: 90%;
+        max-width: 100%;
+        padding: 20px;
+        margin: auto;
+        overflow: hidden;
+    }
+}
+#welcom {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+
+}
+
+#skills{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+}
+#aboutme{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+}
+#certificates{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    position: relative;
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.certificates-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.certificates-gallery img {
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.certificates-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.title{
+    color: black;
+}
+
+#Soft{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+}
+#Interests{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+}
+#Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.img-contact img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
